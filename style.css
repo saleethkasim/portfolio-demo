@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital@1&family=Quicksand:wght@500&family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+nav{
+    background-color: burlywood;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    margin: 30px;
+    text-decoration: none;
+    color: rgb(192, 125, 25);
+}
+nav ul li a:hover{
+    color: blanchedalmond;
+    text-shadow: 2px 2px 2px;
+}
+video{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 68%;
+    left: 38%;
+    color: rgba(27, 26, 26, 0.719);
+    text-shadow: 2px 2px 2px;
+}
+span{
+    color: rgb(243, 189, 122);
+    font-size: larger;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    width: 100%;
+}
+#home::before{
+    content:"";
+    background-image: url(https://th.bing.com/th/id/R.53e9b1d4a42d9ed507185c087e534f0c?rik=UWCYAGfVBss5Eg&riu=http%3a%2f%2fcdn01.cdn.justjaredjr.com%2fwp-content%2fuploads%2f2019%2f05%2fharry-met%2fharry-styles-gucci-pearl-earring-met-gala-01.jpg&ehk=g7DFsL%2fPgGvULJCCTFSr3B3%2f6lI%2bZ7Mdicxmnqfgf7A%3d&risl=&pid=ImgRaw&r=0);
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    
+}
+.main{
+    position: absolute;
+    border: 2px ridge white;
+    padding: 70px;
+    top: 1000px;
+    left: 70%;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    
+}
+#about{
+    text-align: center;
+    font-size: xx-large;
+    margin: 20px;
+    color:burlywood ;
+}
+#about:hover{
+    text-shadow: 2px 2px 2px;
+}
+.pic{
+    display: flex
+}
+.pic p{
+    text-align: justify;
+    margin: 30px;
+}
+#about{
+    text-align: center;
+    text-decoration: underline;
+}
+.pic img{
+    width: 300px;
+    border-radius: 250px;
+
+}
+.pro{
+    margin-left: 150px;
+}
+.pro img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+.pro img:hover{
+    box-shadow: 3px 3px 3px 3px;
+    transform: rotate(360deg);
+}
+
+.row
+{
+    display: flex;
+}
+.box{
+    width: 300px;
+    height: 400px;
+    margin: 25px;
+    border: 2px ridge rgb(243, 189, 122);
+    background: linear-gradient(to top, rgb(241, 180, 66)20%,rgb(240, 236, 236)40%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+.box:hover{
+    background-position:bottom;
+    border: none;
+    box-shadow: 3px 3px 3px 3px rgb(243, 189, 122);
+}
+.box img{
+    width: 100%;
+}
+.box h4{
+    text-align: center;
+    color: rgb(71, 68, 61);
+}
+.box p{
+    text-align: justify;
+    margin: 10px;
+}
+.input{
+    display: flex;
+
+}
+form{
+    width: 400px;
+    margin-left: 460px;
+}
+.input{
+    display: flex;
+    width: 100%;
+    margin: 20px;
+}
